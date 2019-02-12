@@ -15,7 +15,7 @@ except ImportError:
 P2P_PREFIX = '2cfe7e6d'.decode('hex')
 P2P_PORT = 8639
 ADDRESS_VERSION = 0
-RPC_PORT = 6000
+RPC_PORT = 8638
 RPC_CHECK = defer.inlineCallbacks(lambda bitcoind: defer.returnValue(
             (yield helper.check_genesis_block(bitcoind, '000000005b1e3d23ecfd2dd4a6e1a35238aa0392c0a8528c40df52376d7efe2c')) and
             not (yield bitcoind.rpc_getinfo())['testnet']
