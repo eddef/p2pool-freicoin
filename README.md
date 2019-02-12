@@ -9,11 +9,11 @@ you might need more wallets to load balance so you can provide enough work for t
 
 Example freicoin.conf:
 
-rpcuser=freicoinrpc
-rpcpassword=yoursupersecretpassword
-maxconnections=500
-rpctimeout=5
-rpcthreads=8
+    rpcuser=freicoinrpc
+    rpcpassword=yoursupersecretpassword
+    maxconnections=500
+    rpctimeout=5
+    rpcthreads=8
 
 
 If it all starts up well, you should be able to access http://your_ip:9638/
